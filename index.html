@@ -1,34 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document Verification Portal</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Verification Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="container">
+<header>
 
-<h1>Document Verification Portal</h1>
+    <nav>
 
-<form id="uploadForm">
+        <div class="logo">
+            📄 DocVerify
+        </div>
 
-<input type="text" placeholder="Enter Full Name" required>
+        <ul>
 
-<input type="email" placeholder="Enter Email" required>
+            <li><a href="#">Home</a></li>
 
-<input type="file" id="document" required>
+            <li><a href="#">Features</a></li>
 
-<button type="submit">Upload Document</button>
+            <li><a href="#">About</a></li>
 
-</form>
+            <li><a href="login.html">Login</a></li>
 
-<div id="result"></div>
+            <li>
+                <a class="signup-btn" href="signup.html">
+                    Sign Up
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>Secure Document Verification Portal</h1>
+
+        <p>
+
+            Upload, manage and verify your important
+            documents through a secure online platform.
+
+        </p>
+
+        <a href="signup.html" class="start-btn">
+
+            Get Started
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="features">
+
+<h2>Our Features</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🔐 Secure Login</h3>
+
+<p>Protected authentication system for users.</p>
 
 </div>
 
-<script src="script.js"></script>
+<div class="card">
+
+<h3>📂 Upload Documents</h3>
+
+<p>Upload Aadhaar, PAN, Certificates and more.</p>
+
+</div>
+
+<div class="card">
+
+<h3>✔ Verification Status</h3>
+
+<p>Track your document verification instantly.</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+
+© 2026 Document Verification Portal | Developed by Gauri Katiyar
+
+</p>
+
+</footer>
 
 </body>
 </html>
